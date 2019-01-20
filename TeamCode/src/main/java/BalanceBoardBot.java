@@ -37,6 +37,7 @@ public class BalanceBoardBot extends LinearOpMode {
     private CRServo OtherSweeper;
     int Servo = 0;
     double ServoPosition = 0;
+    int ArmRotations;
     //private Servo Servo2;
     int Ryan = 0; //what does this do?
 
@@ -181,6 +182,23 @@ public class BalanceBoardBot extends LinearOpMode {
 
                 //this code
 
+                if (RightJoystickX > .1) {
+                    if (ArmRotations < 0) {
+                        ArmRotations = ArmRotations + 1;
+                        ArmRotatorMotorDrive.setTargetPosition((ArmRotations));
+                        ArmRotatorMotorDrive.setPower(-.25);
+                    }
+                }
+                else {
+                    if (ArmRotations > -360) {
+                        ArmRotations = ArmRotations - 1;
+                        ArmRotatorMotorDrive.setTargetPosition((ArmRotations));
+                        ArmRotatorMotorDrive.setPower(.25);
+                    }
+                }
+
+                //this code worked, and now I'm not sure why it doesn't, so I'm trying what enrique recommended
+                /*
                 RightJoystickTimesConstant = 10*RightJoystickX;
                 RightJoystickInt = (int) RightJoystickTimesConstant;
                 //rotaterPosition = rotaterPosition + RightJoystickInt;
@@ -190,6 +208,10 @@ public class BalanceBoardBot extends LinearOpMode {
                 telemetry.update();
                 ArmRotatorMotorDrive.setTargetPosition((RightJoystickInt)); // change back to rotaterPosition if it doesn't work
                 ArmRotatorMotorDrive.setPower(.25);
+                */
+
+
+
 
 
                 /*
