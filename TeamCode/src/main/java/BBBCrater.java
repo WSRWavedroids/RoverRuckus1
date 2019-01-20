@@ -14,7 +14,7 @@ public class BBBCrater extends LinearOpMode {
     DcMotor FrontRightMotor;
     DcMotor RearLeftMotor;
     DcMotor RearRightMotor;
-    DcMotor Hook;
+    DcMotor HookMotorDrive;
     Servo MarkerServo;
 
 
@@ -41,7 +41,7 @@ public class BBBCrater extends LinearOpMode {
         FrontRightMotor  = hardwareMap.dcMotor.get("FrontRight");
         RearLeftMotor    = hardwareMap.dcMotor.get("RearLeft");
         RearRightMotor    = hardwareMap.dcMotor.get("RearRight");
-        Hook = hardwareMap.dcMotor.get("Hook");
+        HookMotorDrive = hardwareMap.dcMotor.get("Hook");
         MarkerServo = hardwareMap.servo.get("AutonomousServo");
 
 
@@ -49,13 +49,13 @@ public class BBBCrater extends LinearOpMode {
         FrontRightMotor.setDirection(DcMotor.Direction.REVERSE);
         RearLeftMotor.setDirection((DcMotor.Direction.FORWARD));
         RearRightMotor.setDirection(DcMotor.Direction.REVERSE);
-        Hook.setDirection(DcMotor.Direction.FORWARD);
+        HookMotorDrive.setDirection(DcMotor.Direction.FORWARD);
 
         this.waitForStart();
 
 
-        Hook.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-        Hook.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+        HookMotorDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+        HookMotorDrive.setMode(DcMotor.RunMode.RUN_TO_POSITION);
 
         FrontLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         FrontLeftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
@@ -76,30 +76,30 @@ public class BBBCrater extends LinearOpMode {
 
         while (opModeIsActive()) {
 
-            /*if (step == 0) {
+            if (step == 0) {
                 step = 1;
-                Hook.setPower(.3);
-                Hook.setTargetPosition(rotationToTicks(1));
-            } else if (!(Hook.isBusy()) && step == 1) {
+                HookMotorDrive.setPower(.3);
+                HookMotorDrive.setTargetPosition(rotationToTicks(5));
+            } else if (!(HookMotorDrive.isBusy()) && step == 1) {
                 step = 2;
-                Servo1.setPosition(1);
-            } else if (Servo1.getPosition() == 1 && step == 2) {
+                MarkerServo.setPosition(1);
+            } else if (MarkerServo.getPosition() == 1 && step == 2) {
                 step = 3;
-                Hook.setTargetPosition(rotationToTicks(0));
-            }*/ if (/*!Hook.isBusy() && */step == 0) {
+                HookMotorDrive.setTargetPosition(rotationToTicks(-5));
+            } if (!HookMotorDrive.isBusy() && step == 0) {
                 step = 1;
-                /*FrontLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+                FrontLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 FrontLeftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 FrontRightMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 FrontRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 RearLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 RearLeftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 RearRightMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-                RearRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);*/
-                FrontLeftMotor.setPower(1);
-                FrontRightMotor.setPower(1);
-                RearLeftMotor.setPower(1);
-                RearRightMotor.setPower(1);
+                RearRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
+                FrontLeftMotor.setPower(0.5);
+                FrontRightMotor.setPower(0.5);
+                RearLeftMotor.setPower(0.5);
+                RearRightMotor.setPower(0.5);
                 FrontLeftMotor.setTargetPosition(rotationToTicks(-3));
                 FrontRightMotor.setTargetPosition(rotationToTicks(-3));
                 RearLeftMotor.setTargetPosition(rotationToTicks(-3));
@@ -107,22 +107,22 @@ public class BBBCrater extends LinearOpMode {
             }
             else if (!(FrontLeftMotor.isBusy() && FrontRightMotor.isBusy() && RearLeftMotor.isBusy() && RearRightMotor.isBusy()) && step == 1) {
                 step = 2;
-                /*FrontLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+                FrontLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 FrontLeftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 FrontRightMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 FrontRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 RearLeftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
                 RearLeftMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 RearRightMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-                RearRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);*/
+                RearRightMotor.setMode(DcMotor.RunMode.RUN_TO_POSITION);
                 FrontLeftMotor.setPower(0);
                 FrontRightMotor.setPower(0);
                 RearLeftMotor.setPower(0);
                 RearRightMotor.setPower(0);
-                FrontLeftMotor.setPower(1);
-                FrontRightMotor.setPower(1);
-                RearLeftMotor.setPower(1);
-                RearRightMotor.setPower(1);
+                FrontLeftMotor.setPower(0.5);
+                FrontRightMotor.setPower(0.5);
+                RearLeftMotor.setPower(0.5);
+                RearRightMotor.setPower(0.5);
                 FrontLeftMotor.setTargetPosition(rotationToTicks(-2.5-3));
                 FrontRightMotor.setTargetPosition(rotationToTicks(2.5-3));
                 RearLeftMotor.setTargetPosition(rotationToTicks(-2.5-3));
@@ -134,10 +134,10 @@ public class BBBCrater extends LinearOpMode {
                 FrontRightMotor.setPower(0);
                 RearLeftMotor.setPower(0);
                 RearRightMotor.setPower(0);
-                FrontLeftMotor.setPower(1);
-                FrontRightMotor.setPower(1);
-                RearLeftMotor.setPower(1);
-                RearRightMotor.setPower(1);
+                FrontLeftMotor.setPower(0.5);
+                FrontRightMotor.setPower(0.5);
+                RearLeftMotor.setPower(0.5);
+                RearRightMotor.setPower(0.5);
                 FrontLeftMotor.setTargetPosition(rotationToTicks(3));
                 FrontRightMotor.setTargetPosition(rotationToTicks(3));
                 RearLeftMotor.setTargetPosition(rotationToTicks(3));
@@ -150,7 +150,7 @@ public class BBBCrater extends LinearOpMode {
 
             }
 
-            telemetry.addData("Hook Motor Position", Hook.getCurrentPosition());
+            telemetry.addData("Hook Motor Position", HookMotorDrive.getCurrentPosition());
             telemetry.addData("Front Left Motor Position", FrontLeftMotor.getCurrentPosition());
             telemetry.addData("Front Right Motor Position", FrontRightMotor.getCurrentPosition());
             telemetry.addData("Rear Left Motor Position", RearLeftMotor.getCurrentPosition());
