@@ -6,11 +6,8 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="Fix to work on the laptop - Henrique">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="BBBCRATER">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BBBCrater.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBCrater.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +48,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="88" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="88" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -76,7 +73,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBCrater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
+            <state relative-caret-position="1586">
               <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
             </state>
           </provider>
@@ -3766,7 +3763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548022702170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BBBCRATER">
+      <created>1548027032367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548027032367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3845,7 +3849,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TEST 123" />
     <MESSAGE value="Fix to work on the laptop - Henrique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix to work on the laptop - Henrique" />
+    <MESSAGE value="BBBCRATER" />
+    <option name="LAST_COMMIT_MESSAGE" value="BBBCRATER" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.PwmStatus.html">
@@ -4016,7 +4021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBCrater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
+        <state relative-caret-position="1586">
           <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
         </state>
       </provider>
