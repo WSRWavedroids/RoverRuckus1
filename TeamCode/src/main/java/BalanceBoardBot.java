@@ -13,9 +13,6 @@ import com.qualcomm.robotcore.hardware.Gyroscope;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.Range;
 
-//This is a change
-//This is a better change - Amon
-//Amon's change sux
 
 /**
  * Copied by Sam on 12/29/2018; printed as of 1/6/2019
@@ -37,6 +34,7 @@ public class BalanceBoardBot extends LinearOpMode {
 
     private Servo MarkerServo;
     private CRServo ContinuousSweeper;
+    private CRServo OtherSweeper;
     int Servo = 0;
     double ServoPosition = 0;
     //private Servo Servo2;
@@ -56,6 +54,7 @@ public class BalanceBoardBot extends LinearOpMode {
 
         MarkerServo = hardwareMap.get(Servo.class, "AutonomousServo");
         ContinuousSweeper = hardwareMap.get(CRServo.class, "Sweeper");
+        OtherSweeper = hardwareMap.get(CRServo.class, "OtherSweeper");
         //Servo1.setPosition(0);
 
         ArmRotatorMotorDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
@@ -95,8 +94,19 @@ public class BalanceBoardBot extends LinearOpMode {
             ArmRotatorMotorDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
 
+            if (gamepad1.a ) {
 
-            ContinuousSweeper.setPower(-2);
+                ContinuousSweeper.setPower(-2);
+                OtherSweeper.setPower(2);
+
+            }
+            else {
+
+                ContinuousSweeper.setPower(2);
+                OtherSweeper.setPower(-2);
+
+            }
+
 
             if (LeftJoystickX == 0 || Math.abs(tangent) >= 1) { //controls whether the code registers forward/backward or left/right
 
@@ -212,7 +222,9 @@ public class BalanceBoardBot extends LinearOpMode {
             else {
                 ArmRotatorMotorDrive.setPower(0);
             }
-            
+
+
+
 
            /*if (gamepad1.a ) {
                 ServoPosition = ServoPosition + 0.05;
