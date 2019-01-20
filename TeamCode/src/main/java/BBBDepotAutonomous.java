@@ -160,6 +160,7 @@ public class BBBDepotAutonomous extends LinearOpMode {
             telemetry.addData("Front Right Motor Position", FrontRightDrive.getCurrentPosition());
             telemetry.addData("Rear Left Motor Position", RearLeftDrive.getCurrentPosition());
             telemetry.addData("Rear Right Motor Position", RearRightDrive.getCurrentPosition());
+            telemetry.addData("Hook Motor Position", HookMotorDrive.getCurrentPosition());
             telemetry.addData("Steps", step);
             telemetry.update();
             idle();
