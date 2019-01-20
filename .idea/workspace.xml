@@ -1,14 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee05e8fa-f389-4c49-a71e-fc0462c1ddaa" name="Default" comment="TEST 123">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="Fix to work">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/V4_3-ftc_app-master.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/.github/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/build.release.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/FTC_2016-17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/FTC_2016-17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/RelicVuMark.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/RelicVuMark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/RoverRuckus.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/RoverRuckus.tflite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/RoverRuckus.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/StonesAndChips.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/assets/StonesAndChips.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavRoverRuckus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigationWebcam.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREVColorDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/sample_conventions.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-xhdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-xhdpi/icon_robotcontroller.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/layout/activity_ftc_controller.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/menu/ftc_robot_controller.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/raw/gold.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/raw/silver.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values-sw600dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values-sw720dp-land/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/xml/app_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/FtcRobotController/src/main/res/xml/device_filter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/build.release.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/Autonomous1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/Autonomous2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/AutonomousCrater.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/AutonomousEncoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BBBAutonomousTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BBBCrater.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BBBDepotAutonomous.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/Encoder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/MyFIRSTJavaOpMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/OpModeTrackPositionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/Other_Robot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/Sensor_test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/test2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/res/raw/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/build.common.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/allclasses-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/allclasses-noframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/ClassManagerFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdPlaySound.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdRequestSound.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdStopPlayingSounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.CmdVisuallyIdentify.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.AddressChange.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxAddressChangeRequest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareImagesResp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.LynxFirmwareUpdateResp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesRequest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.USBAccessibleLynxModulesResp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/CommandList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.Flag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/ConfigWifiDirectActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.AboutFragment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcAboutActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.SettingsFragment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcAdvancedRCSettingsActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.DefaultUsbModuleAttachmentHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.LynxUsbDeviceContainer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopBase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcEventLoopIdle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.FwResponseStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.ReceiveLoopCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxFirmwareUpdateActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressAndDisplayName.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.AddressConfiguration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.DisplayedModuleList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.ReceiveLoopCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcLynxModuleAddressUpdateActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.FtcRobotControllerBinder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerService.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.SettingsFragment.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcRobotControllerSettingsActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.WifiChannelItemAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectChannelSelectorActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.RecvLoopCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.WifiP2pGroupItemAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/FtcWifiDirectRememberedGroupsActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.RequestCode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/LaunchActivityConstantsList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/ProgrammingModeController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/Restarter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.CurrentlyPlaying.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.InstanceHolder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.LoadedSoundCache.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.PlaySoundParams.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundFromFile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.SoundInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.StopWhat.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/SoundPlayer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/USBAccessibleLynxModule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.DeviceNameManagerCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.Callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/UpdateUI.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/UsbModuleAttachmentHandler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/ViewLogsActivity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/ftccommon/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.EventLoopMonitor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/EventLoopManager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Manager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.ShutdownReason.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.Syncable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/SyncdDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeManager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/AnnotatedOpModeRegistrar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Autonomous.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/Disabled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/EventLoopManagerClient.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/FtcRobotControllerServiceState.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.LinearOpModeHelper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/LinearOpMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.Notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeManagerNotifier.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegister.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/OpModeRegistrar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/TeleOp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/opmode/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/eventloop/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/DuplicateNameException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/RobotCoreException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/RobotProtocolException.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/exception/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AccelerationSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInput.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogInputController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutput.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogOutputController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/AnalogSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.Step.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Blinker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/CRServo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/CRServoImplEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ColorSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.CompassMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/CompassSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ControlSystem.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.RunMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.ZeroPowerBehavior.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorControllerEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorImplEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.Direction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DcMotorSimple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceInterfaceModule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.UsbDeviceType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DeviceManager.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.Mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.Mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DigitalChannelImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/DistanceSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Engagable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.GamepadCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Gamepad.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/GyroSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Gyroscope.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.Manufacturer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceCloseOnTearDown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.HealthStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareDeviceHealthImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.DeviceMapping.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/HardwareMap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddrConfig.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cAddressableDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyBeginEndNotifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.I2cPortReadyCallback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cControllerPortDeviceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceReader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.HeartbeatAction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.ReadWindow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynch.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchDeviceWithParameters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.CONTROLLER_PORT_MODE.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.Callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.READ_CACHE_STATUS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WRITE_CACHE_STATUS.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.WriteCacheStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchImplOnSimple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchReadHistoryImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cDeviceSynchSimple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/I2cWaitControl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/IntegratingGyroscope.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.IrSeekerIndividualSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.Mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/IrSeekerSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LED.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LegacyModulePortDeviceImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Light.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LightBlinker.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LightMultiplexor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LightSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMeta.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/LynxModuleMetaList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/MotorControlAlgorithm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedColorSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/NormalizedRGBA.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/OpticalDistanceSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/OrientationSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PIDCoefficients.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PIDFCoefficients.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutput.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputControllerEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PWMOutputImplEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.PwmRange.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/PwmControl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/RobotConfigNameable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxModule.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/RobotCoreLynxUsbDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.MapAdapter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ScannedDevices.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.Direction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/Servo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.PwmStatus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ServoController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ServoControllerEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImpl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/ServoImplEx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/SwitchableLight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedData.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/TimestampedI2cData.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/TouchSensorMultiplexer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/UltrasonicSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/VisuallyIdentifiableHardwareDevice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/VoltageSensor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/hardware/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.Resolution.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/ElapsedTime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/Range.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/SerialNumber.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/TypeConversion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/com/qualcomm/robotcore/util/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/constant-values.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/deprecated-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/help-doc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/index-all.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.InstanceHolder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/ClassFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Const.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Consumer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Event.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Func.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Function.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.AtMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortDirection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.SortType.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.TrimMode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/JavaUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/NonConst.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Predicate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.SignificantMotionDetectionListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/SignificantMotionDetection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/State.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateMachine.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/StateTransition.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Supplier.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.DisplayOrder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.Log.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/Telemetry.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/ThrowingCallable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidAccelerometer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidGyroscope.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidOrientation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidSoundPool.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/AndroidTextToSpeech.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/android/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMajorMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/ColumnMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/DenseMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/GeneralMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/MatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/OpenGLMatrix.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMajorMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/RowMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/SliceMatrixF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/VectorF.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/matrices/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Acceleration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngleUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AngularVelocity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesOrder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/AxesReference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Axis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/DistanceUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MagneticFlux.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.MotionDetectionListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.Vector.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/MotionDetection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/NavUtil.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.AngleSet.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Orientation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Position.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Quaternion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/RelicRecoveryVuMark.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Rotation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/TempUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Temperature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/UnnormalizedAngleUnit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/Velocity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.Type.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuMarkInstanceId.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.TrackingResults.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaBase.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CameraDirection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.CloseableFrame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.CameraMonitorFeedback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.Parameters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaLocalizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.TrackingResults.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRelicRecovery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaRoverRuckus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.Listener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.PoseAndCamera.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackableDefaultListener.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/VuforiaTrackables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/navigation/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/org/firstinspires/ftc/robotcore/external/package-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/overview-frame.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/overview-summary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/overview-tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/package-list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/serialized-form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/javadoc/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/legal/AudioBlocksSounds.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/legal/Exhibit A - LEGO Open Source License Agreement.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/legal/LEGO Open Source License.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/PullRequest.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/chips.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/stones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/target_chips_A4.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/target_chips_USLetter.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/target_stones_A4.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/media/target_stones_USLetter.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/doc/tutorial/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Analytics-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Blocks-release-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Blocks-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/FtcCommon-release-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/FtcCommon-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Hardware-release-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Hardware-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Inspection-release-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Inspection-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/RobotCore-release-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/RobotCore-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/Vuforia.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/WirelessP2p-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/armeabi-v7a/libVuforia.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/ftc.debug.keystore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/tensorflow-lite-0.0.0-nightly.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/libs/tfod-release.aar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ftc_app-master/settings.gradle" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-233758167">
@@ -43,27 +534,10 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BalanceBoardBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BalanceBoardBot.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -71,65 +545,170 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoverRuckus1" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-              <item name="ftc_app-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-              <item name="ftc_app-master" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-              <item name="ftc_app-master" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-              <item name="ftc_app-master" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RoverRuckus1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoverRuckus1" type="462c0819:PsiDirectoryNode" />
-              <item name="ftc_app-master" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoverRuckus1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RoverRuckus1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ftc_app-master" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BalanceBoardBot.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,7 +722,183 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.TeamCode">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548021474116" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="TeamCode" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1548021474116" />
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android App.TeamCode" />
+    </list>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -162,20 +917,9 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -199,31 +943,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -233,11 +984,31 @@
     <MESSAGE value="TEST 123" />
     <option name="LAST_COMMIT_MESSAGE" value="TEST 123" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ftc_app-master/TeamCode/src/main/java/BalanceBoardBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
