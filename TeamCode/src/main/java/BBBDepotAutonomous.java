@@ -77,6 +77,7 @@ public class BBBDepotAutonomous extends LinearOpMode {
                 HookMotorDrive.setTargetPosition(rotationToTicks(5));
             } else if (!(HookMotorDrive.isBusy()) && step == 1) {
                 step = 2;
+                HookMotorDrive.setPower(0);
                 FrontLeftDrive.setPower(0.5);
                 FrontRightDrive.setPower(0.5);
                 RearLeftDrive.setPower(0.5);
