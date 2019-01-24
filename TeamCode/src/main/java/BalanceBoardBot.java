@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.robotcontroller;
+//package org.firstinspires.ftc.robotcontroller;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -31,13 +31,13 @@ public class BalanceBoardBot extends LinearOpMode {
     private double LeftJoystickX;
     private double RightJoystickY;
     private double RightJoystickX;
-
     private Servo MarkerServo;
     private CRServo ContinuousSweeper;
     private CRServo OtherSweeper;
     int Servo = 0;
     double ServoPosition = 0;
     int ArmRotations;
+    int ServoToggle = 0;
     //private Servo Servo2;
     int Ryan = 0; //what does this do?
 
@@ -95,16 +95,27 @@ public class BalanceBoardBot extends LinearOpMode {
             ArmRotatorMotorDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
 
-            if (gamepad1.a ) {
+            if (gamepad1.a && ServoToggle == 0) {
 
-                ContinuousSweeper.setPower(-2);
                 OtherSweeper.setPower(2);
+                OtherSweeper.setPower(-2);
+                ServoToggle = 1;
 
             }
-            else {
 
-                ContinuousSweeper.setPower(2);
+            if (gamepad1.a && ServoToggle == 1) {
+
                 OtherSweeper.setPower(-2);
+                OtherSweeper.setPower(2);
+                ServoToggle = 0;
+
+            }
+
+            if (gamepad1.b) {
+
+                OtherSweeper.setPower(0);
+                OtherSweeper.setPower(0);
+
 
             }
 
