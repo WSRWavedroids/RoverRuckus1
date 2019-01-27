@@ -32,7 +32,7 @@ public class BalanceBoardBot extends LinearOpMode {
     private double RightJoystickY;
     private double RightJoystickX;
     private Servo MarkerServo;
-    private CRServo ContinuousSweeper;
+    private CRServo Sweeper;
     private CRServo OtherSweeper;
     int Servo = 0;
     double ServoPosition = 0;
@@ -54,7 +54,7 @@ public class BalanceBoardBot extends LinearOpMode {
         HookMotorDrive = hardwareMap.get(DcMotor.class, "Hook");
 
         MarkerServo = hardwareMap.get(Servo.class, "AutonomousServo");
-        ContinuousSweeper = hardwareMap.get(CRServo.class, "Sweeper");
+        Sweeper = hardwareMap.get(CRServo.class, "Sweeper");
         OtherSweeper = hardwareMap.get(CRServo.class, "OtherSweeper");
         //Servo1.setPosition(0);
 
@@ -97,7 +97,7 @@ public class BalanceBoardBot extends LinearOpMode {
 
             if (gamepad1.a && ServoToggle == 0) {
 
-                OtherSweeper.setPower(2);
+                Sweeper.setPower(2);
                 OtherSweeper.setPower(-2);
                 ServoToggle = 1;
 
@@ -105,7 +105,7 @@ public class BalanceBoardBot extends LinearOpMode {
 
             if (gamepad1.a && ServoToggle == 1) {
 
-                OtherSweeper.setPower(-2);
+                Sweeper.setPower(-2);
                 OtherSweeper.setPower(2);
                 ServoToggle = 0;
 
@@ -113,7 +113,7 @@ public class BalanceBoardBot extends LinearOpMode {
 
             if (gamepad1.b) {
 
-                OtherSweeper.setPower(0);
+                Sweeper.setPower(0);
                 OtherSweeper.setPower(0);
 
 
@@ -133,6 +133,14 @@ public class BalanceBoardBot extends LinearOpMode {
                 FrontRightDrive.setPower(-power);
                 RearRightDrive.setPower(-power);
                 RearLeftDrive.setPower(power);
+
+
+                telemetry.addData("Front Left Motor Position", FrontLeftDrive.getCurrentPosition());
+                telemetry.addData("Front Right Motor Position", FrontRightDrive.getCurrentPosition());
+                telemetry.addData("Rear Left Motor Position", RearLeftDrive.getCurrentPosition());
+                telemetry.addData("Rear Right Motor Position", RearRightDrive.getCurrentPosition());
+
+
             }
             else {
 
