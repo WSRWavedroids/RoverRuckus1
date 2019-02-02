@@ -150,7 +150,7 @@ import java.util.List;
                             if (goldMineralX != -1) {
                                 if (goldMineralX < 100) {
                                     telemetry.addData("Gold Mineral Position", "Right");
-                                } else if (goldMineralX < 700) {
+                                } else if (goldMineralX < 600) {
                                     telemetry.addData("Gold Mineral Position", "Center");
                                 } else {
                                     telemetry.addData("Gold Mineral Position", "Left");
@@ -196,7 +196,7 @@ import java.util.List;
             int tfodMonitorViewId = hardwareMap.appContext.getResources().getIdentifier(
                     "tfodMonitorViewId", "id", hardwareMap.appContext.getPackageName());
             TFObjectDetector.Parameters tfodParameters = new TFObjectDetector.Parameters(tfodMonitorViewId);
-            tfodParameters.minimumConfidence = .50;
+            tfodParameters.minimumConfidence = .75;
             tfod = ClassFactory.getInstance().createTFObjectDetector(tfodParameters, vuforia);
             tfod.loadModelFromAsset(TFOD_MODEL_ASSET, LABEL_GOLD_MINERAL, LABEL_SILVER_MINERAL);
         }
