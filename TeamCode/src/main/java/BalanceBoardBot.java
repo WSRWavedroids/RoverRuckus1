@@ -25,19 +25,20 @@ public class BalanceBoardBot extends LinearOpMode {
     private DcMotor RearRightDrive;
     private DcMotor ArmRotatorMotorDrive;
     private DcMotor ArmExtenderMotorDrive;
-    private DcMotor ArmWristMotorDrive;
     private DcMotor HookMotorDrive;
     private double LeftJoystickY;
     private double LeftJoystickX;
     private double RightJoystickY;
     private double RightJoystickX;
     private Servo MarkerServo;
+    private Servo WristServo;
     private CRServo Sweeper;
     private CRServo OtherSweeper;
     int Servo = 0;
     double ServoPosition = 0;
     int ArmRotations;
     int ServoToggle = 0;
+    int WristServoToggle = 0;
     //private Servo Servo2;
     int Ryan = 0; //what does this do?
 
@@ -50,12 +51,12 @@ public class BalanceBoardBot extends LinearOpMode {
         RearRightDrive = hardwareMap.get(DcMotor.class, "RearRight");
         ArmRotatorMotorDrive = hardwareMap.get(DcMotor.class, "ArmRotater");
         ArmExtenderMotorDrive = hardwareMap.get(DcMotor.class, "ArmExtender");
-        ArmWristMotorDrive = hardwareMap.get(DcMotor.class, "ArmWrist");
         HookMotorDrive = hardwareMap.get(DcMotor.class, "Hook");
 
         MarkerServo = hardwareMap.get(Servo.class, "AutonomousServo");
         Sweeper = hardwareMap.get(CRServo.class, "Sweeper");
         OtherSweeper = hardwareMap.get(CRServo.class, "OtherSweeper");
+        WristServo = hardwareMap.get(Servo.class, "WristServo");
         //Servo1.setPosition(0);
 
         ArmRotatorMotorDrive.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
@@ -194,6 +195,18 @@ public class BalanceBoardBot extends LinearOpMode {
 
             }
 
+            if (gamepad1.right_trigger > .1 && WristServoToggle == 0){
+                WristServoToggle = 1;
+            }
+            if(WristServoToggle == 1)    {
+                WristServo.setPosition(1);
+            }
+            if (gamepad1.right_trigger > .1 && WristServoToggle == 1){
+                WristServoToggle = 0;
+            }
+            if(WristServoToggle == 0){
+                WristServo.setPosition(-1);
+            }
 
             if (Math.abs(RightJoystickX) > .1) {
 
