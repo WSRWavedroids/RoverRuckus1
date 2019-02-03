@@ -140,6 +140,13 @@ public class BalanceBoardBot extends LinearOpMode {
                 telemetry.addData("Front Right Motor Position", FrontRightDrive.getCurrentPosition());
                 telemetry.addData("Rear Left Motor Position", RearLeftDrive.getCurrentPosition());
                 telemetry.addData("Rear Right Motor Position", RearRightDrive.getCurrentPosition());
+                if(gamepad1.dpad_left){
+                    MarkerServo.setPosition(Range.clip(MarkerServo.getPosition()+0.1, 0, 1));
+                }
+                if(gamepad1.dpad_right){
+                    MarkerServo.setPosition(Range.clip(MarkerServo.getPosition()-0.1, 0, 1));
+                }
+                telemetry.addData("Servo", MarkerServo.getPosition());
 
 
             }

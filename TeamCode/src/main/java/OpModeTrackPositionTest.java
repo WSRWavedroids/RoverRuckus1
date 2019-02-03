@@ -16,8 +16,8 @@ public class OpModeTrackPositionTest extends LinearOpMode {
         DcMotor FrontRightDrive = hardwareMap.get(DcMotor.class, "FrontRight");
         DcMotor RearLeftDrive = hardwareMap.get(DcMotor.class, "RearLeft");
         DcMotor RearRightDrive = hardwareMap.get(DcMotor.class, "RearRight");
-        DcMotor HookMotorDrive = hardwareMap.get(DcMotor.class, "Hook");
-        Servo Servo1 = hardwareMap.get(Servo.class, "Servo 0");
+        DcMotor HookMotorDrive = hardwareMap.dcMotor.get("Hook");
+        Servo MarkerServo = hardwareMap.servo.get("AutonomousServo");
 
         //Variables for loop below
         double LeftJoystick;
@@ -30,7 +30,8 @@ public class OpModeTrackPositionTest extends LinearOpMode {
         int FrontRightPosition = 0;
         int RearLeftPosition = 0;
         int RearRightPosition = 0;
-        int HookPosition = 0;
+        int hookmotorPostion = 0;
+        double MarkerServoPosition = 0;
 
         //Wait for the program to start
         waitForStart();
@@ -53,9 +54,7 @@ public class OpModeTrackPositionTest extends LinearOpMode {
             RearLeftDrive.setPower(LeftJoystick2);
             RearRightDrive.setPower(LeftJoystick2);
 
-            //Hook Control
-            HookMotorDrive.setPower(-RightJoystickY);
-            HookMotorDrive.setPower(RightJoystickY);
+
 
 
 
@@ -75,15 +74,25 @@ public class OpModeTrackPositionTest extends LinearOpMode {
 
             }
 
+            if (gamepad1.dpad_up) {
+
+                HookMotorDrive.setPower(1);
+
+            }else if (gamepad1.dpad_down) {
+
+                HookMotorDrive.setPower(-1);
+
+            }else{
+                HookMotorDrive.setPower(0);
+            }
+
             if (gamepad1.a ) {
                 ServoPosition = ServoPosition + 0.05;
-                Servo1.setPosition(ServoPosition);
-                telemetry.addData("Servo", Servo1.getPosition());
+                MarkerServo.setPosition(ServoPosition);
             }
             if (gamepad1.b){
                 ServoPosition = ServoPosition - 0.05;
-                Servo1.setPosition(ServoPosition);
-                telemetry.addData("Servo", Servo1.getPosition());
+                MarkerServo.setPosition(ServoPosition);
             }
 
             //Blank Positions to zero
@@ -92,14 +101,17 @@ public class OpModeTrackPositionTest extends LinearOpMode {
                 FrontRightPosition = FrontRightDrive.getCurrentPosition();
                 RearLeftPosition = RearLeftDrive.getCurrentPosition();
                 RearRightPosition = RearRightDrive.getCurrentPosition();
-                HookPosition = HookMotorDrive.getCurrentPosition();
+                MarkerServoPosition = MarkerServo.getPosition();
+                hookmotorPostion = HookMotorDrive.getCurrentPosition();
             }
             //get motor positions
-            telemetry.addData("HookPosition", HookPosition - HookMotorDrive.getCurrentPosition());
+
             telemetry.addData("FrontLeftDrive", FrontLeftPosition - FrontLeftDrive.getCurrentPosition());
             telemetry.addData("FrontRightDrive", FrontRightPosition - FrontRightDrive.getCurrentPosition());
             telemetry.addData("RearLeftDrive", RearLeftPosition - RearLeftDrive.getCurrentPosition());
             telemetry.addData("RearRightDrive", RearRightPosition - RearRightDrive.getCurrentPosition());
+            telemetry.addData("HookMotor",      hookmotorPostion - HookMotorDrive.getCurrentPosition());
+            telemetry.addData("Servo", MarkerServoPosition - MarkerServo.getPosition());
             telemetry.update();
 
         }

@@ -35,7 +35,7 @@ public class BBBDepotAutonomous extends LinearOpMode {
 
     private TFObjectDetector tfod;
 
-    int MineralPosition = 0;
+    int MineralPosition = -1;
     double MineralConfidence = 0;
 
     int MarkerDrop = 0;
@@ -120,11 +120,11 @@ public class BBBDepotAutonomous extends LinearOpMode {
                 tfod.activate();
             }
 
-
+        MarkerServo.setPosition(.5);
             //Main Code
         while (opModeIsActive()) {
 
-            if (tfod != null && time < 3) {
+            if (tfod != null && time < 2.9) {
                 // getUpdatedRecognitions() will return null if no new information is available since
                 // the last time that call was made.-
                 List<Recognition> updatedRecognitions = tfod.getUpdatedRecognitions();
@@ -151,11 +151,13 @@ public class BBBDepotAutonomous extends LinearOpMode {
                             telemetry.addData("Gold Mineral Position", "Left");
                             MineralPosition = 1;
                         }
-                    } else {
-                        telemetry.addData("Gold Mineral Position", "Left");
-                        MineralPosition = 1;
                     }
-
+                }
+            }
+            else if (time < 3){
+                if (MineralPosition == -1) {
+                    telemetry.addData("Gold Mineral Position", "Left");
+                    MineralPosition = 0;
                 }
             }
             //Lower Latch
@@ -165,11 +167,11 @@ public class BBBDepotAutonomous extends LinearOpMode {
 
             }
             //Stop unlatching
-            else if (time < 7) {
+            else if (time < 5) {
                 HookMotorDrive.setPower(0);
             }
             //Crab Away
-            else if (time < 7.75) {
+            else if (time < 5.75) {
 
                     FrontLeftDrive.setPower(0.5);
                     FrontRightDrive.setPower(-0.5);
@@ -177,21 +179,21 @@ public class BBBDepotAutonomous extends LinearOpMode {
                     RearRightDrive.setPower(0.5);
             }
             //Stop
-            else if (time < 8) {
+            else if (time < 6) {
                 FrontLeftDrive.setPower(0);
                 FrontRightDrive.setPower(0);
                 RearLeftDrive.setPower(0);
                 RearRightDrive.setPower(0);
             }
             //Drive Forwards
-            else if(time < 8.3){
+            else if(time < 6.3){
                 FrontLeftDrive.setPower(-0.375);
                 FrontRightDrive.setPower(-0.375);
                 RearLeftDrive.setPower(-0.375);
                 RearRightDrive.setPower(-0.375);
             }
             //Stop
-            else if (time < 9) {
+            else if (time < 7) {
                 FrontLeftDrive.setPower(0);
                 FrontRightDrive.setPower(0);
                 RearLeftDrive.setPower(0);
@@ -199,52 +201,52 @@ public class BBBDepotAutonomous extends LinearOpMode {
             }
             //Mineral Steps
             else{
-                if(MineralPosition == 1){ //Left
+                if(MineralPosition == 1 || MineralPosition == 0){ //Left
 
                     //Crab Left
-                     if(time < 11){
-                        if( ((int)(time * 10))%2 == 0) {
-                            FrontLeftDrive.setPower(1);
-                            FrontRightDrive.setPower(-1);
-                            RearLeftDrive.setPower(-1);
-                            RearRightDrive.setPower(1);
-                        }else{
+                     if(time < 8){
+                        if( ((int)(time * 10))%3 == 0) {
                             FrontLeftDrive.setPower(0);
                             FrontRightDrive.setPower(0);
                             RearLeftDrive.setPower(0);
                             RearRightDrive.setPower(0);
+                        }else{
+                            FrontLeftDrive.setPower(1);
+                            FrontRightDrive.setPower(-1);
+                            RearLeftDrive.setPower(-1);
+                            RearRightDrive.setPower(1);
                         }
                     }
                     //Stop
-                    else if (time < 15){
+                    else if (time < 10){
                         FrontLeftDrive.setPower(0);
                         FrontRightDrive.setPower(0);
                         RearLeftDrive.setPower(0);
                         RearRightDrive.setPower(0);
                     }
                     //Drive Forwards
-                    else if (time < 16.5){
+                    else if (time < 11){
                         FrontLeftDrive.setPower(-0.375);
                         FrontRightDrive.setPower(-0.375);
                         RearLeftDrive.setPower(-0.375);
                         RearRightDrive.setPower(-0.375);
                     }
                     //Stop
-                    else if (time < 17){
+                    else if (time < 11.5){
                         FrontLeftDrive.setPower(0);
                         FrontRightDrive.setPower(0);
                         RearLeftDrive.setPower(0);
                         RearRightDrive.setPower(0);
                     }
                     //Turn
-                    else if(time < 18.75){
-                        FrontLeftDrive.setPower(0.375);
-                        FrontRightDrive.setPower(-0.375);
-                        RearLeftDrive.setPower(0.375);
-                        RearRightDrive.setPower(-0.375);
+                    else if(time < 12.75){
+                        FrontLeftDrive.setPower(-0.375);
+                        FrontRightDrive.setPower(0.375);
+                        RearLeftDrive.setPower(-0.375);
+                        RearRightDrive.setPower(0.375);
                     }
                     //Stop
-                    else if (time < 21){
+                    else if (time < 13){
                         FrontLeftDrive.setPower(0);
                         FrontRightDrive.setPower(0);
                         RearLeftDrive.setPower(0);
@@ -255,10 +257,64 @@ public class BBBDepotAutonomous extends LinearOpMode {
                 }
                 else if(MineralPosition == 2){ // Center
 
-                    FrontLeftDrive.setPower(-0.375);
-                    FrontRightDrive.setPower(-0.375);
-                    RearLeftDrive.setPower(-0.375);
-                    RearRightDrive.setPower(-0.375);
+
+                    //Drive Forwards
+                    if(time < 8){
+                        FrontLeftDrive.setPower(-0.375);
+                        FrontRightDrive.setPower(0.375);
+                        RearLeftDrive.setPower(-0.375);
+                        RearRightDrive.setPower(0.375);
+                    }
+                    //Stop
+                    else if (time < 8.5){
+                        FrontLeftDrive.setPower(0);
+                        FrontRightDrive.setPower(0);
+                        RearLeftDrive.setPower(0);
+                        RearRightDrive.setPower(0);
+                    }
+                    //Crab Right Slightly
+                    else if(time < 9.25){
+                        FrontLeftDrive.setPower(-0.5);
+                        FrontRightDrive.setPower(0.5);
+                        RearLeftDrive.setPower(0.5);
+                        RearRightDrive.setPower(-0.5);
+                    }
+                    //Stop
+                    else if (time < 9.75){
+                        FrontLeftDrive.setPower(0);
+                        FrontRightDrive.setPower(0);
+                        RearLeftDrive.setPower(0);
+                        RearRightDrive.setPower(0);
+                    }
+                    //Drive Forwards
+                    else if (time < 10.75){
+                        FrontLeftDrive.setPower(-0.375);
+                        FrontRightDrive.setPower(-0.375);
+                        RearLeftDrive.setPower(-0.375);
+                        RearRightDrive.setPower(-0.375);
+                    }
+                    //Stop
+                    else if (time < 11){
+                        FrontLeftDrive.setPower(0);
+                        FrontRightDrive.setPower(0);
+                        RearLeftDrive.setPower(0);
+                        RearRightDrive.setPower(0);
+                    }
+                    //Turn
+                    else if(time < 12){
+                        FrontLeftDrive.setPower(-0.375);
+                        FrontRightDrive.setPower(0.375);
+                        RearLeftDrive.setPower(-0.375);
+                        RearRightDrive.setPower(0.375);
+                    }
+                    //Stop
+                    else if (time < 13){
+                        FrontLeftDrive.setPower(0);
+                        FrontRightDrive.setPower(0);
+                        RearLeftDrive.setPower(0);
+                        RearRightDrive.setPower(0);
+                    }
+
 
                 }else if(MineralPosition ==3){ //Right
                     FrontLeftDrive.setPower(-0.5);
@@ -269,10 +325,8 @@ public class BBBDepotAutonomous extends LinearOpMode {
             }
 
             //Drop Marker
-            if (time > 21 && time < 20){
+            if (time > 13 && time < 15){
                 MarkerServo.setPosition(0);
-            } else {
-                MarkerServo.setPosition(.5);
             }
 
             //Time System
@@ -287,6 +341,7 @@ public class BBBDepotAutonomous extends LinearOpMode {
             //telemetry.addData("Rear Right Motor Position", RearRightDrive.getCurrentPosition());
             //telemetry.addData("Hook Motor Position", HookMotorDrive.getCurrentPosition());
             telemetry.addData("Position", MineralPosition);
+            telemetry.addData("Servo", MarkerServo.getPosition());
             telemetry.addData("confidence", (MineralConfidence * 100) + '%');
             telemetry.addData("Hook Motor Power",HookMotorDrive.getPower());
             telemetry.addData("Front Left Motor Power",FrontLeftDrive.getPower());
@@ -332,7 +387,7 @@ public class BBBDepotAutonomous extends LinearOpMode {
         int tfodMonitorViewId = hardwareMap.appContext.getResources().getIdentifier(
                 "tfodMonitorViewId", "id", hardwareMap.appContext.getPackageName());
         TFObjectDetector.Parameters tfodParameters = new TFObjectDetector.Parameters(tfodMonitorViewId);
-        tfodParameters.minimumConfidence = .75;//.40;
+        tfodParameters.minimumConfidence = .50;//.40;
         tfod = ClassFactory.getInstance().createTFObjectDetector(tfodParameters, vuforia);
         tfod.loadModelFromAsset(TFOD_MODEL_ASSET, LABEL_GOLD_MINERAL, LABEL_SILVER_MINERAL);
     }
