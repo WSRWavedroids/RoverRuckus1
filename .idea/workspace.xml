@@ -9,7 +9,6 @@
     <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,13 +97,13 @@
       <file leaf-file-name="BBBAutonomousEncoder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+            <state relative-caret-position="205">
+              <caret line="340" column="81" lean-forward="false" selection-start-line="340" selection-start-column="81" selection-end-line="340" selection-end-column="81" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BBBAutonomousEncoder#0" expanded="false" />
-                <element signature="e#16023#16108#0" expanded="false" />
+                <element signature="e#16022#16107#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3528,7 +3527,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422637958" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422745277" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3575,7 +3574,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422637958" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422745277" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3870,7 +3869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549233486610</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Enconder moves through method and vulforia works">
+      <created>1549422663986</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1549422663986</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3962,7 +3968,8 @@
     <MESSAGE value="Time based autonomous for depot side" />
     <MESSAGE value="Time based autonomous for depot side with Vuforia" />
     <MESSAGE value="LEarn battery was affecting movement time based, attempt with encoders" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEarn battery was affecting movement time based, attempt with encoders" />
+    <MESSAGE value="Enconder moves through method and vulforia works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enconder moves through method and vulforia works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4358,13 +4365,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+        <state relative-caret-position="205">
+          <caret line="340" column="81" lean-forward="false" selection-start-line="340" selection-start-column="81" selection-end-line="340" selection-end-column="81" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BBBAutonomousEncoder#0" expanded="false" />
-            <element signature="e#16023#16108#0" expanded="false" />
+            <element signature="e#16022#16107#0" expanded="false" />
           </folding>
         </state>
       </provider>

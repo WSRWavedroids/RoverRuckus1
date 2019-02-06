@@ -338,7 +338,7 @@ public class BBBAutonomousEncoder extends LinearOpMode{
             if (tfod != null) {
                 tfod.activate();
             }
-            while ((opModeIsActive() && runtime.seconds() < 5)|| MineralPosition == -1) { //try to get it for 5 seconds
+            while (opModeIsActive() && runtime.seconds() < 5 && MineralPosition == -1) { //try to get it for 5 seconds
                 if (tfod != null && MineralPosition == -1) {
                     // getUpdatedRecognitions() will return null if no new information is available since
                     // the last time that call was made.-
