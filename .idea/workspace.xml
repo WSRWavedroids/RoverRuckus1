@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoardBot.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoardBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/CameraTest.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/CameraTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TeamCode/src/main/java/OpModeTrackPositionTest.java" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/OpModeTrackPositionTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +88,8 @@
       <file leaf-file-name="AutonomousEncoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/AutonomousEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+            <state relative-caret-position="357">
+              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="43" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -101,13 +98,13 @@
       <file leaf-file-name="BBBAutonomousEncoder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+            <state relative-caret-position="491">
+              <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BBBAutonomousEncoder#0" expanded="false" />
-                <element signature="e#4195#4280#0" expanded="false" />
+                <element signature="e#16023#16108#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -116,15 +113,15 @@
       <file leaf-file-name="BBBDepotAutonomous.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="34">
+              <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BBBDepotAutonomous#0" expanded="false" />
-                <element signature="e#5148#5233#0" expanded="false" />
-                <marker date="1549230325168" expanded="false" signature="1956:2454" ph="..." />
-                <marker date="1549230325168" expanded="false" signature="3403:4108" ph="..." />
-                <marker date="1549230325168" expanded="true" signature="7491:7701" ph="..." />
+                <element signature="e#5201#5286#0" expanded="false" />
+                <marker date="1549416063845" expanded="false" signature="2010:2508" ph="..." />
+                <marker date="1549416063845" expanded="false" signature="3457:4162" ph="..." />
+                <marker date="1549416063845" expanded="true" signature="7544:7754" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,7 +130,7 @@
       <file leaf-file-name="CameraTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/CameraTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
+            <state relative-caret-position="-900">
               <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -3251,8 +3248,8 @@
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/CameraTest.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoardBot.java" />
-        <option value="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/OpModeTrackPositionTest.java" />
+        <option value="$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java" />
         <option value="$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java" />
       </list>
     </option>
@@ -3531,7 +3528,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549233451672" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422637958" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3578,7 +3575,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549233451672" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1549422637958" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3866,7 +3863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549142153724</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="LEarn battery was affecting movement time based, attempt with encoders">
+      <created>1549233486610</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1549233486610</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3898,7 +3902,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3957,7 +3961,8 @@
     <MESSAGE value="WEB CAM CODE plus VUFORIA" />
     <MESSAGE value="Time based autonomous for depot side" />
     <MESSAGE value="Time based autonomous for depot side with Vuforia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time based autonomous for depot side with Vuforia" />
+    <MESSAGE value="LEarn battery was affecting movement time based, attempt with encoders" />
+    <option name="LAST_COMMIT_MESSAGE" value="LEarn battery was affecting movement time based, attempt with encoders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4310,21 +4315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#BBBDepotAutonomous#0" expanded="false" />
-            <element signature="e#5148#5233#0" expanded="false" />
-            <marker date="1549230325168" expanded="false" signature="1956:2454" ph="..." />
-            <marker date="1549230325168" expanded="false" signature="3403:4108" ph="..." />
-            <marker date="1549230325168" expanded="true" signature="7491:7701" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/OpModeTrackPositionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
@@ -4333,9 +4323,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/AutonomousEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="43" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/CameraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
+        <state relative-caret-position="-900">
           <caret line="117" column="20" lean-forward="false" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -4343,23 +4341,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/AutonomousEncoder.java">
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBDepotAutonomous.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="116" column="30" lean-forward="false" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BBBDepotAutonomous#0" expanded="false" />
+            <element signature="e#5201#5286#0" expanded="false" />
+            <marker date="1549416063845" expanded="false" signature="2010:2508" ph="..." />
+            <marker date="1549416063845" expanded="false" signature="3457:4162" ph="..." />
+            <marker date="1549416063845" expanded="true" signature="7544:7754" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BBBAutonomousEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        <state relative-caret-position="491">
+          <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BBBAutonomousEncoder#0" expanded="false" />
-            <element signature="e#4195#4280#0" expanded="false" />
+            <element signature="e#16023#16108#0" expanded="false" />
           </folding>
         </state>
       </provider>
