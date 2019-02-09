@@ -6,12 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="mineral arm rotation update">
-      <change afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoartBotV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoardBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoardBot.java" afterDir="false" />
-    </list>
+    <list default="true" id="89c4bafc-261d-441c-b472-fe8ff5939016" name="Default" comment="mineral arm rotation update" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoartBotV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
+            <state relative-caret-position="1003">
+              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
             </state>
           </provider>
         </entry>
@@ -3815,12 +3810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548025549007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mineral arm rotation update">
+      <created>1549673860242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549673860242</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1612" height="865" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25064433" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -4036,8 +4037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/BalanceBoartBotV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="286" column="31" lean-forward="true" selection-start-line="286" selection-start-column="31" selection-end-line="286" selection-end-column="31" />
+        <state relative-caret-position="1003">
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
         </state>
       </provider>
     </entry>
