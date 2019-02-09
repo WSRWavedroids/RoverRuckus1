@@ -18,7 +18,8 @@ import com.qualcomm.robotcore.util.Range;
  * Copied by Sam on 12/29/2018; printed as of 1/6/2019
  */
 @TeleOp
-public class BalanceBoardBot extends LinearOpMode {
+public class BalanceBoartBotV2 extends LinearOpMode {
+
     private DcMotor FrontLeftDrive;
     private DcMotor FrontRightDrive;
     private DcMotor RearLeftDrive;
@@ -206,12 +207,12 @@ public class BalanceBoardBot extends LinearOpMode {
             }
 
 
-            if (gamepad1.dpad_up == true) {
+            if (gamepad1.dpad_up) {
 
                 HookMotorDrive.setPower(.5);
 
             }
-            else if (gamepad1.dpad_down == true) {
+            else if (gamepad1.dpad_down) {
 
                 HookMotorDrive.setPower(-.5);
 
@@ -283,7 +284,6 @@ public class BalanceBoardBot extends LinearOpMode {
 
                 //this code worked, and now I'm not sure why it doesn't, so I'm trying what enrique recommended
                 ///*
-                if ((RightJoystickInt > 49) && RightJoystickInt < 151) {
                     RightJoystickTimesConstant = 10 * RightJoystickX;
                     RightJoystickInt = (int) RightJoystickTimesConstant;
                     rotatorPosition = rotatorPosition + RightJoystickInt;
@@ -295,7 +295,6 @@ public class BalanceBoardBot extends LinearOpMode {
                     //*/
                     ArmRotatorMotorDrive.setTargetPosition((RightJoystickInt)); // change back to rotatorPosition if it doesn't work
                     ArmRotatorMotorDrive.setPower(.25);
-                }
                 //*/
 
 
@@ -395,7 +394,7 @@ public class BalanceBoardBot extends LinearOpMode {
             telemetry.addData("Status", "Running");
             //telemetry.addData("Motor", "Running");
             telemetry.update();
-    }
-
         }
+
     }
+}
